@@ -1,0 +1,25 @@
+
+#sleep 10
+#sudo python /home/pi/Desktop/codeblack/dashboard/hello.py
+
+https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all
+
+
+https://superuser.com/questions/1281509/how-can-i-open-a-lxterminal-with-a-script-running-in-it
+lxterminal --command=""
+
+
+[Desktop Entry]
+Type=Application
+Name=Scanner
+Exec=xterm -hold -e '/usr/bin/python3 /home/pi/Desktop/codeblack/dashboard/scanner.py'
+
+
+
+Worked well: 
+[Desktop Entry]
+Type=Application
+Name=Scanner
+Exec=lxterminal --command="/usr/bin/python3 /home/pi/Desktop/codeblack/dashboard/scanner.py"
+
+

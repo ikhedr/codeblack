@@ -1,0 +1,75 @@
+h1{
+/*	font-family:"Arial Black", Gadget, sans-serif;*/
+	font-family:"Times New Romans", Gadget, sans-serif;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+body{
+	color:black;
+	background-color:white;
+	left-margin:10px;
+	right-margin:10px;
+}
+
+table#close{
+    padding-top: 12px;
+	table-layout:default;
+	border-collapse:seperate;
+	border-spacing: 5px 5px;
+	border:none;
+	vertical-align:top;
+}
+table.none
+{
+	border:none;
+	vertical-align:top;
+}
+table.none td
+{
+	border: none;
+}
+input[type=submit] {
+    width: 20em;  height: 2em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.active {
+    background-color: #4CAF50;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
